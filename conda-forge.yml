@@ -6,11 +6,15 @@ provider:
   osx: github_actions
   win: github_actions
   linux_aarch64: None
+  osx_arm64: github_actions
   linux_ppc64le: None
 
 github_actions:
   upload_packages: True
   store_build_artifacts: True
 
-os_version:
-  linux_64: cos7
+noarch_platforms:
+  - linux_64
+  - win_64
+  - osx_64
+  - osx_arm64
