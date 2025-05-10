@@ -13,8 +13,3 @@ github_actions:
   upload_packages: True
   store_build_artifacts: True
 
-noarch_platforms:
-  - linux_64
-  - win_64
-  - osx_64
-  - osx_arm64
